@@ -1,0 +1,5 @@
+Clips	com.github.hezral.clips	1.1.0	stable	appcenter	system
+Ensembles	com.github.subhadeepjasu.ensembles	0.0.17	stable	appcenter	system
+Frog	com.github.tenderowl.frog	0.2.1	stable	appcenter	system
+Builder	org.gnome.Builder	43.4	stable	flathub	system
+osu!	sh.ppy.osu	2022.1228.0	stable	flathub	system

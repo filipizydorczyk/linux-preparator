@@ -1,0 +1,40 @@
+#!/bin/bash
+
+header() {
+    echo ""
+    echo -e "\033[0;35m$1\033[0m"
+}
+
+header "PKG CACHE"
+
+PACMAN_COUNT=$(ls -l /var/cache/pacman/pkg/ | wc -l)
+YAY_COUNT=$(ls -l ~/.cache/yay/ | wc -l)
+PACMAN_LIB_COUNT=$(ls -l /var/lib/pacman/ | wc -l)
+
+echo "pacman                    $PACMAN_COUNT"
+echo "yay                       $YAY_COUNT"
+echo "pacman lib                $PACMAN_COUNT"
+
+header "TRASH"
+
+LOCLA_TRASH=$(ls -l ~/.local/share/Trash/files | wc -l)
+GLOBAL_TRASH=$(ls -l /mnt/commondisk/.Trash-1000/files | wc -l)
+
+echo "Local trash items         $LOCLA_TRASH"
+echo "Global trash items        $GLOBAL_TRASH"
+
+header "DOWNLOADS"
+
+DONWLOADS=$(ls -l ~/Downloads | wc -l)
+
+echo "Files in ~/Downloads      $DONWLOADS"
+
+header "DOCKER"
+
+DOCKER_IMAGES_COUNT=$(docker images | wc -l)
+
+echo "Amount of docker images   $DOCKER_IMAGES_COUNT"
+
+header "VIDOES"
+
+du -hs ~/Videos/* | sort -hr | head -n 15

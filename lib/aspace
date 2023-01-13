@@ -7,25 +7,25 @@ header() {
 
 header "PKG CACHE"
 
-PACMAN_COUNT=$(ls -l /var/cache/pacman/pkg/ | wc -l)
-YAY_COUNT=$(ls -l ~/.cache/yay/ | wc -l)
-PACMAN_LIB_COUNT=$(ls -l /var/lib/pacman/ | wc -l)
+PACMAN_COUNT=$(find /var/cache/pacman/pkg/ | wc -l)
+YAY_COUNT=$(find ~/.cache/yay/ | wc -l)
+PACMAN_LIB_COUNT=$(find /var/lib/pacman/ | wc -l)
 
 echo "pacman                    $PACMAN_COUNT"
 echo "yay                       $YAY_COUNT"
-echo "pacman lib                $PACMAN_COUNT"
+echo "pacman lib                $PACMAN_LIB_COUNT"
 
 header "TRASH"
 
-LOCLA_TRASH=$(ls -l ~/.local/share/Trash/files | wc -l)
-GLOBAL_TRASH=$(ls -l /mnt/commondisk/.Trash-1000/files | wc -l)
+LOCLA_TRASH=$(find ~/.local/share/Trash/files | wc -l)
+GLOBAL_TRASH=$(find /mnt/commondisk/.Trash-1000/files | wc -l)
 
 echo "Local trash items         $LOCLA_TRASH"
 echo "Global trash items        $GLOBAL_TRASH"
 
 header "DOWNLOADS"
 
-DONWLOADS=$(ls -l ~/Downloads | wc -l)
+DONWLOADS=$(find ~/Downloads | wc -l)
 
 echo "Files in ~/Downloads      $DONWLOADS"
 

@@ -1,14 +1,21 @@
 #!/bin/bash
 
+NEW_DISORD_ARCHIVE=$(ls -Art ~/Downloads/discord-*.tar.gz 2>/dev/null | tail -n 1)
+DISCORD_LOCATION=/opt/discord
+DISCORD_TMP_LOCATION=/tmp/Discord
+
 if [ "$EUID" -eq 0 ]; then
     echo "Please run as regular user"
     exit
 fi
 
-NEW_DISORD_ARCHIVE=$(ls -Art ~/Downloads/discord-*.tar.gz | tail -n 1)
-DISCORD_LOCATION=/opt/discord
+if [ ! -f "$NEW_DISORD_ARCHIVE" ]; then
+    echo "Please download discord archive first"
+    exit
+fi
 
+rm -rf $DISCORD_TMP_LOCATION
 tar -xf $NEW_DISORD_ARCHIVE -C /tmp/
-rm -rf $DISCORD_LOCATION
-sudo mv /tmp/Discord $DISCORD_LOCATION
+sudo rm -rf $DISCORD_LOCATION
+sudo mv $DISCORD_TMP_LOCATION $DISCORD_LOCATION
 rm -rf $NEW_DISORD_ARCHIVE

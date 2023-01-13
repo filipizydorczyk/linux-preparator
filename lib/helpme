@@ -1,3 +1,5 @@
 #!/bin/bash
 
-# This is gonna be command that will prompt all my custom commands with help prompt
+echo "helpme        Hey thats me!"
+echo "aspace        This ultility checks for areas of my disk that are often getting a lot of space to show me what I should probably delete/"
+echo "updiscord     Unfortunetly discord on arch linux sometimes wants you to download new version of discord instead of update it on its own. This script automates that."

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for i in *.mp4; do ffmpeg -i "$i" -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a pcm_s16le "${i%.*}.mov"; done
+for i in *.mkv; do ffmpeg -i "$i" -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a pcm_s16le "${i%.*}.mov"; done
+#for i in *.webm; do ffmpeg -i "$i" -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a pcm_s16le "${i%.*}.mov"; done

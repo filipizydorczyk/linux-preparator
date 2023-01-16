@@ -1,0 +1,3 @@
+#!/bin/bash
+
+kill -SIGKILL $(lsof -t -i:"$1")

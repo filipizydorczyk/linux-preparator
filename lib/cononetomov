@@ -1,0 +1,4 @@
+#!/bin/bash
+
+FILE_NAME=$(echo "$1" | cut -f 1 -d '.')
+ffmpeg -i "$1" -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a pcm_s16le "${FILE_NAME%.*}.mov"

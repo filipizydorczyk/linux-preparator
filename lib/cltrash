@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -rf ~/.local/share/Trash/files/*
+rm -rf /mnt/commondisk/.Trash-1000/files/*
+rm -rf '/mnt/commondisk/$RECYCLE.BIN/'/*

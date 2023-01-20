@@ -1,3 +1,6 @@
 [submodule "vendor/ohmyzsh"]
 	path = vendor/ohmyzsh
 	url = https://github.com/ohmyzsh/ohmyzsh.git
+[submodule "vendor/wireless-hid-reloaded"]
+	path = vendor/wireless-hid-reloaded
+	url = https://github.com/filipizydorczyk/wireless-hid-reloaded.git

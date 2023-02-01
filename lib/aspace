@@ -5,6 +5,8 @@ header() {
     echo -e "\033[0;35m$1\033[0m"
 }
 
+df -H /dev/sda1 /dev/nvme1n1p1
+
 header "PKG CACHE"
 
 PACMAN_COUNT=$(find /var/cache/pacman/pkg/ | wc -l)

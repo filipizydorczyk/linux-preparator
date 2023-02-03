@@ -53,10 +53,6 @@ ms-vsliveshare.vsliveshare-audio
 nickdemayo.vscode-json-editor
 njpwerner.autodocstring
 octref.vetur
-Pivotal.vscode-boot-dev-pack
-Pivotal.vscode-concourse
-Pivotal.vscode-manifest-yaml
-Pivotal.vscode-spring-boot
 QiaoJie.binary-viewer
 RandomFractalsInc.vscode-data-preview
 redhat.java
@@ -75,6 +71,10 @@ trond-snekvik.simple-rst
 twxs.cmake
 VisualStudioExptTeam.intellicode-api-usage-examples
 VisualStudioExptTeam.vscodeintellicode
+vmware.vscode-boot-dev-pack
+vmware.vscode-concourse
+vmware.vscode-manifest-yaml
+vmware.vscode-spring-boot
 vsciot-vscode.vscode-arduino
 vscjava.vscode-java-debug
 vscjava.vscode-java-dependency

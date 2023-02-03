@@ -121,6 +121,7 @@ hashcat
 helm-synth
 htop
 hydra
+inetutils
 inkscape
 intel-ucode
 intellij-idea-community-edition

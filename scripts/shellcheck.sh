@@ -2,5 +2,5 @@
 
 # Run it from project root directory
 
-shellcheck ./lib/*
+shellcheck ./bin/*
 shellcheck ./scripts/*

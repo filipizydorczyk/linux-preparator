@@ -8,7 +8,7 @@ sh ./vendor/ohmyzsh/tools/install.sh
 
 echo "Installing scripts"
 
-cp -f ./lib/* ~/.local/scripts/
+cp -f ./bin/* ~/.local/scripts/
 
 echo "Installing directory structure"
 

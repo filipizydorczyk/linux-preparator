@@ -1,0 +1,7 @@
+# Static table lookup for hostnames.
+# See hosts(5) for details.
+127.0.0.1       localhost
+::1             localhost
+0.0.0.0         localhost
+127.0.0.1       arch.localdomain arch
+192.168.1.19    hps

@@ -12,11 +12,13 @@ cp -f ./bin/* ~/.local/scripts/
 
 echo "Installing directory structure"
 
+# If external disk is used for this dirs just remove them and create link
 mkdir -p ~/Backups
 mkdir -p ~/Contracts
 mkdir -p ~/Development
 mkdir -p ~/Files
 mkdir -p ~/Tests
+mkdir -p ~/Tmp
 
 mkdir -p ~/Documents
 mkdir -p ~/Downloads

@@ -63,6 +63,7 @@ geonkick
 ghc
 gimp
 git
+github-cli
 glfw-x11
 glow
 glpk
@@ -125,6 +126,7 @@ inetutils
 inkscape
 intel-ucode
 intellij-idea-community-edition
+isync
 jack2
 jack2-dbus
 jack_mixer
@@ -175,6 +177,7 @@ nvidia-cg-toolkit
 nvidia-settings
 obsidian
 ocl-icd
+onetbb
 opencl-nvidia
 openh264
 openssh
@@ -249,11 +252,12 @@ wxsvg
 xclip
 xdg-user-dirs-gtk
 xorg-server-xephyr
+xorg-xev
 xorg-xinit
 xsel
 yarn
 yelp
-youtube-dl
+yt-dlp
 zita-ajbridge
 zsh
 zsh-completions

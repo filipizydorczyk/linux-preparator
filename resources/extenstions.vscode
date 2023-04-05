@@ -48,6 +48,7 @@ ms-vscode.cpptools-themes
 ms-vscode.powershell
 ms-vscode.remote-explorer
 ms-vscode.test-adapter-converter
+ms-vscode.vscode-serial-monitor
 ms-vsliveshare.vsliveshare
 ms-vsliveshare.vsliveshare-audio
 nickdemayo.vscode-json-editor

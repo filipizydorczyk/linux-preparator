@@ -4,3 +4,6 @@
 [submodule "vendor/wireless-hid-reloaded"]
 	path = vendor/wireless-hid-reloaded
 	url = https://github.com/filipizydorczyk/wireless-hid-reloaded.git
+[submodule "vendor/hydroxide"]
+	path = vendor/hydroxide
+	url = https://github.com/emersion/hydroxide.git

@@ -9,6 +9,7 @@ echo "acheatsheet   This will print all cheetsheets I have in my notes. Once the
 echo "updiscord     Unfortunetly discord on arch linux sometimes wants you to download new version of discord instead of update it on its own. This script automates that."
 echo "cltrash       Will remove files from trash directories"
 echo "clport        Will stop process on given port eg. clport 8080"
+echo "crpasswd      Will generate random password I can use while creating an account"
 echo ""
 echo "cldocker      Will stop all working docker containers"
 echo "redocker      Will stop all containers and run compose"

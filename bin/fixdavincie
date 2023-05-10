@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [ "$EUID" -ne 0 ]; then
+    echo "Please run as root"
+    exit
+fi
+
+if [ -e /opt/intel/oneapi/compiler/2023.0.0/linux/lib/libOpenCL.so.tmp ]; then
+    echo "Hiding libOpenCL.so"
+    mv /opt/intel/oneapi/compiler/2023.0.0/linux/lib/libOpenCL.so.tmp /opt/intel/oneapi/compiler/2023.0.0/linux/lib/libOpenCL.so
+else
+    echo "Reverting libOpenCL.so"
+    mv /opt/intel/oneapi/compiler/2023.0.0/linux/lib/libOpenCL.so /opt/intel/oneapi/compiler/2023.0.0/linux/lib/libOpenCL.so.tmp
+fi
+
+ls /opt/intel/oneapi/compiler/2023.0.0/linux/lib/libOpenCL*

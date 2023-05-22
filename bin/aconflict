@@ -1,0 +1,17 @@
+#!/bin/bash
+
+cd /home/filip/Files/scratchpad
+
+for file in *.md; do
+    # Construct the regex pattern to match the conflict file
+    conflict_pattern="${file%.md}.sync-conflict*.md"
+
+    conflict_file=$(find . -maxdepth 1 -type f -name "$conflict_pattern")
+
+    if [ -n "$conflict_file" ]; then
+
+        echo ""
+        echo $file
+        diff --color "$file" "$conflict_file"
+    fi
+done

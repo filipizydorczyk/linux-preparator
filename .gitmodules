@@ -7,3 +7,9 @@
 [submodule "vendor/hydroxide"]
 	path = vendor/hydroxide
 	url = https://github.com/emersion/hydroxide.git
+[submodule "vendor/emoji-selector-for-gnome"]
+	path = vendor/emoji-selector-for-gnome
+	url = https://github.com/maoschanz/emoji-selector-for-gnome.git
+[submodule "vendor/gnome-clipboard-history"]
+	path = vendor/gnome-clipboard-history
+	url = https://github.com/SUPERCILEX/gnome-clipboard-history.git

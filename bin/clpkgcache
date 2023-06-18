@@ -1,0 +1,4 @@
+#!/bin/bash
+
+yay -Sc
+sudo pacman -Sc

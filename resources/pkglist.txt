@@ -11,6 +11,7 @@ audacity
 autoconf
 automake
 baobab
+barrier
 base
 bash-completion
 bat
@@ -38,6 +39,7 @@ docker-compose
 dos2unix
 dragonfly-reverb
 drumgizmo
+duf
 efibootmgr
 eog
 epiphany
@@ -193,6 +195,7 @@ plank
 powerline
 powerline-fonts
 pulseaudio-jack
+pyenv
 python-pip
 qemu-emulators-full
 qgnomeplatform-qt5
@@ -221,7 +224,6 @@ strace
 streamlink
 strongswan
 sudo
-surge
 sushi
 swh-plugins
 syncthing
@@ -230,6 +232,7 @@ tap-plugins
 telegram-desktop
 tembro
 termdown
+terraform
 texinfo
 thunar
 thunderbird

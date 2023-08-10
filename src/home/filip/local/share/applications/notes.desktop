@@ -1,9 +1,0 @@
-[Desktop Entry]
-
-Type=Application
-Name=Notes
-Comment=Opens Typora in my notes directory.
-Exec=/home/filip/.local/bin/notes
-Icon=typora
-Terminal=false
-Categories=Office;WordProcessor;

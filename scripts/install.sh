@@ -28,6 +28,10 @@ chmod +x ~/.local/scripts/*
 
 echo "Installing directory structure"
 
+# This is directory to put app images inside. This direcotry is supposed to store app iamges that were downloaded
+# locally. This apps typically should not require many updates if any and the backup should happen outside this repo
+mkdir -p ~/.local/appimages
+
 # If external disk is used for this dirs just remove them and create link
 mkdir -p ~/Backups
 mkdir -p ~/Contracts
@@ -41,3 +45,7 @@ mkdir -p ~/Downloads
 mkdir -p ~/Music
 mkdir -p ~/Pictures
 mkdir -p ~/Videos
+
+echo "Installing autostart configuration"
+
+cp -f ./src/home/filip/.config/autostart/* ~/.config/autostart

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "home/filip/.local/appimages"
+ls -la ~/.local/appimages

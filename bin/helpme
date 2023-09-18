@@ -2,6 +2,7 @@
 
 echo "helpme        Hey thats me!"
 echo ""
+echo "anappimages   List app images installed on local machine"
 echo "anarchdocs    Will open offilne copy of arch documentation"
 echo "anoverview    Will open my todays todolist"
 echo "aspace        This ultility checks for areas of my disk that are often getting a lot of space to show me what I should probably delete."

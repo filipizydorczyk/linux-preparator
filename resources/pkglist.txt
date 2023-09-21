@@ -194,11 +194,11 @@ pkgconf
 plank
 powerline
 powerline-fonts
+ppsspp
 pulseaudio-jack
 pyenv
 python-pip
 qemu-emulators-full
-qgnomeplatform-qt5
 r
 realtime-privileges
 reflector

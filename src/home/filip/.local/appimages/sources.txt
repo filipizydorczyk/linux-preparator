@@ -1,0 +1,2 @@
+https://github.com/iprodanovbg/homeassistant-desktop
+https://github.com/ppy/osu

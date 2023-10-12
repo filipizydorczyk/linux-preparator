@@ -1,4 +1,5 @@
 a2jmidid
+alacritty
 alsa-utils
 android-tools
 apk-tools
@@ -17,6 +18,7 @@ bash-completion
 bat
 bind
 binutils
+binwalk
 bison
 blender
 bpython
@@ -66,7 +68,7 @@ ghc
 gimp
 git
 github-cli
-glfw-x11
+glfw-wayland
 glow
 glpk
 glu
@@ -77,6 +79,8 @@ gnome-calendar
 gnome-characters
 gnome-clocks
 gnome-color-manager
+gnome-connections
+gnome-console
 gnome-contacts
 gnome-control-center
 gnome-disk-utility
@@ -95,7 +99,9 @@ gnome-shell
 gnome-shell-extensions
 gnome-software
 gnome-system-monitor
+gnome-text-editor
 gnome-themes-extra
+gnome-tour
 gnome-tweaks
 gnome-user-docs
 gnome-user-share
@@ -152,6 +158,7 @@ libreoffice-fresh
 libxcrypt-compat
 linux
 linux-firmware
+loupe
 lsp-plugins
 luarocks
 lutris
@@ -214,6 +221,7 @@ signal-desktop
 simple-scan
 sl
 smartmontools
+snapshot
 soundfont-fluid
 spdlog
 sshpass
@@ -225,6 +233,7 @@ streamlink
 strongswan
 sudo
 sushi
+sway
 swh-plugins
 syncthing
 system-config-printer
@@ -248,8 +257,10 @@ virtualbox-host-modules-arch
 vlc
 vst3sdk
 wasm-pack
+waybar
 which
 winetricks
+wofi
 wolf-shaper
 wxsvg
 xclip
@@ -257,6 +268,7 @@ xdg-user-dirs-gtk
 xorg-server-xephyr
 xorg-xev
 xorg-xinit
+xorg-xlsclients
 xsel
 yarn
 yelp

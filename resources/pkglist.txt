@@ -17,7 +17,6 @@ base
 bash-completion
 bat
 bind
-binutils
 binwalk
 bison
 blender
@@ -32,6 +31,7 @@ chromium
 composer
 cpupower
 cronie
+darktable
 dbeaver
 dconf-editor
 dhcp
@@ -39,6 +39,7 @@ discord
 docker
 docker-compose
 dos2unix
+dosfstools
 dragonfly-reverb
 drumgizmo
 duf
@@ -53,6 +54,7 @@ file-roller
 filelight
 filezilla
 firefox
+flatpak
 flex
 fltk
 freepats-general-midi
@@ -169,6 +171,7 @@ man-db
 mariadb
 maven
 mercurial
+mtools
 musescore
 musl
 mutter
@@ -258,6 +261,7 @@ vlc
 vst3sdk
 wasm-pack
 waybar
+wget
 which
 winetricks
 wofi

@@ -1,0 +1,11 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/nvme1n1p2
+UUID=022a6ad8-430f-4835-9582-d689965fd7d2       /               ext4            rw,relatime     0 1
+
+/dev/sda1 /mnt/commondisk ntfs-3g quiet,user,rw,umask=000,uid=1000,gid=1000,defaults,permissions,exec 0 0
+
+
+

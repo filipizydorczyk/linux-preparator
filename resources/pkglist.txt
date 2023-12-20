@@ -205,7 +205,6 @@ plank
 powerline
 powerline-fonts
 ppsspp
-pulseaudio-jack
 pyenv
 python-pip
 qemu-emulators-full

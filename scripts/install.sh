@@ -44,8 +44,6 @@ mkdir -p ~/Bin
 mkdir -p ~/Development
 mkdir -p ~/Tests
 
-# Rwmovw Backups Files
-
 mkdir -p ~/Documents
 mkdir -p ~/Downloads
 mkdir -p ~/Music

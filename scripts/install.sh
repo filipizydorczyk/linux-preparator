@@ -33,12 +33,18 @@ echo "Installing directory structure"
 mkdir -p ~/.local/appimages
 
 # If external disk is used for this dirs just remove them and create link
-mkdir -p ~/Backups
 mkdir -p ~/Contracts
-mkdir -p ~/Development
-mkdir -p ~/Files
-mkdir -p ~/Tests
+mkdir -p ~/E-books
 mkdir -p ~/Tmp
+mkdir -p ~/Diary
+mkdir -p ~/Scratchpad
+mkdir -p ~/Notes
+mkdir -p ~/Bin
+
+mkdir -p ~/Development
+mkdir -p ~/Tests
+
+# Rwmovw Backups Files
 
 mkdir -p ~/Documents
 mkdir -p ~/Downloads

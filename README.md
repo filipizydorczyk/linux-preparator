@@ -5,6 +5,15 @@ This is similar repository to [the one](https://github.com/filipizydorczyk/windo
 -   scripts - actions you can perform on fresh install. Call them from root direcotry ex. `./scripts/install.sh`
 -   vendor - directory to keep submodules. At the moment I have only [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 
+# User setup
+
+Since I do some audio stuff and I often run jack server its important to add user to `realtime` group. Its only thing I need to rememebr so i dont do playbook for that but I mention it in README so that I dont forget. Here are my groups on curent machines
+
+```sh
+➜ linux-preparator (master) ✅ groups                
+realtime docker video storage optical audio wheel
+```
+
 # Gnome extensions
 
 I want to have script that fethces all of them and install but for now I don't know the way to do so so I just keep them as an list in here:

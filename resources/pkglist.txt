@@ -247,7 +247,6 @@ terraform
 texinfo
 thunar
 thunderbird
-tilda
 time
 tk
 tmux

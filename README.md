@@ -5,6 +5,11 @@ This is similar repository to [the one](https://github.com/filipizydorczyk/windo
 -   scripts - actions you can perform on fresh install. Call them from root direcotry ex. `./scripts/install.sh`
 -   vendor - directory to keep submodules. At the moment I have only [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 
+```sh
+pacman -Qqen
+pacman -Qm
+```
+
 # Progresive web apps
 
 I do use some web apps on my PC as an imitation of desktop application. Unfortunetly there is no easy command to get a full list but I can just visit `brave://apps/` in he browser to se all installed apps and copy its urls to `resources/progresiveapps.txt`.
@@ -22,10 +27,4 @@ realtime docker video storage optical audio wheel
 
 I want to have script that fethces all of them and install but for now I don't know the way to do so so I just keep them as an list in here:
 
--   [Blur my Shell](https://github.com/aunetx/blur-my-shell)
--   [Burn My Windows](https://github.com/Schneegans/Burn-My-Windows)
--   [Gnome Clipboard History](https://github.com/SUPERCILEX/gnome-clipboard-history)
--   [Compiz alike magic lamp effect](https://github.com/hermes83/compiz-alike-magic-lamp-effect)
--   [Compiz windows effect](https://github.com/hermes83/compiz-windows-effect)
--   [Emoji Selector](https://github.com/maoschanz/emoji-selector-for-gnome)
--   [Tray Icons Reloaded](https://github.com/MartinPL/Tray-Icons-Reloaded)
+- [ddterm](https://extensions.gnome.org/extension/3780/ddterm/)

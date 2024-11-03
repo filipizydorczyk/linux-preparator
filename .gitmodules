@@ -1,15 +1,9 @@
 [submodule "vendor/ohmyzsh"]
 	path = vendor/ohmyzsh
 	url = https://github.com/ohmyzsh/ohmyzsh.git
-[submodule "vendor/wireless-hid-reloaded"]
-	path = vendor/wireless-hid-reloaded
-	url = https://github.com/filipizydorczyk/wireless-hid-reloaded.git
 [submodule "vendor/hydroxide"]
 	path = vendor/hydroxide
 	url = https://github.com/emersion/hydroxide.git
-[submodule "vendor/emoji-selector-for-gnome"]
-	path = vendor/emoji-selector-for-gnome
-	url = https://github.com/maoschanz/emoji-selector-for-gnome.git
-[submodule "vendor/gnome-clipboard-history"]
-	path = vendor/gnome-clipboard-history
-	url = https://github.com/SUPERCILEX/gnome-clipboard-history.git
+[submodule "vendor/ddterm"]
+	path = vendor/ddterm
+	url = https://github.com/ddterm/gnome-shell-extension-ddterm.git

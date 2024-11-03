@@ -19,5 +19,3 @@ ttf-ms-fonts 2.0-12
 typora 1.7.5-1
 visual-studio-code-bin 1.83.1-1
 wd719x-firmware 1-7
-yay-git 12.1.3.r4.gd368f99-1
-

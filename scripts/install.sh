@@ -1,20 +1,6 @@
 #!/bin/bash
 
-# Run it from project root directory
-
-# Needs to be prepared
-# echo "Installing pacman packages"
-
-# echo "Installing external utilites"
-
-# git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-# git clone https://github.com/meiokubo-zz/emoji.zsh-theme.git
-# cp emoji.zsh-theme ~/.oh-my-zsh/themes
-
-# git clone https://aur.archlinux.org/yay.git
-# makepkg -si
-
-# echo "Installing AUR packages"
+echo "Warning! Please install yay if its not installed already!"
 
 echo "Installing ohmyzsh"
 

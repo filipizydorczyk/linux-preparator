@@ -30,14 +30,14 @@ alias clear="clear && neofetch"
 source $ZSH/oh-my-zsh.sh
 source /usr/share/nvm/init-nvm.sh
 
-if hash setxkbmap 2>/dev/null; then
-    setxkbmap pl
-fi
+# if hash setxkbmap 2>/dev/null; then
+#     setxkbmap pl
+# fi
 
 if hash neofetch 2>/dev/null; then
     neofetch
 fi
 
-if hash nvidia-settings 2>/dev/null; then
-    nvidia-settings -a "[gpu:0]/GpuPowerMizerMode=1" >/dev/null
-fi
+# if hash nvidia-settings 2>/dev/null; then
+#     nvidia-settings -a "[gpu:0]/GpuPowerMizerMode=1" >/dev/null
+# fi

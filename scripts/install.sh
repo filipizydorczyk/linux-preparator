@@ -8,9 +8,9 @@ sh ./vendor/ohmyzsh/tools/install.sh
 
 echo "Installing scripts"
 
-mkdir -p ~/.local/scripts/
-cp -f ./bin/* ~/.local/scripts/
-chmod +x ~/.local/scripts/*
+mkdir -p ~/Bin/
+cp -f ./src/home/filip/Bin/* ~/Bin/
+chmod +x ~/Bin/*
 
 echo "Installing directory structure"
 

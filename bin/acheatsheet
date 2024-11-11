@@ -1,3 +1,0 @@
-#!/bin/bash
-
-find ~/Files/notes -type f | grep -i -w "cheetsheet\|cheatsheet"

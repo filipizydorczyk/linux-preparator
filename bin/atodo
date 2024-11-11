@@ -1,3 +1,0 @@
-#!/bin/bash
-
-cat ~/Files/scratchpad/📃\ TODO.md | grep '\[[ xX]\]' | glow

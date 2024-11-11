@@ -1,0 +1,20 @@
+#!/bin/bash
+
+cat /proc/asound/cards
+
+echo ""
+read -p "Select the card to start jack with: " cardinput
+echo ""
+
+jack_control stop
+jack_control ds alsa
+jack_control dps device "hw:${cardinput}"
+jack_control dps rate 48000
+jack_control dps nperiods 3
+jack_control dps period 64
+jack_control start
+pulseaudio --kill
+
+echo ""
+echo "Server started. Use jack_control exit to close the session."
+echo "You might want to use Carla or Ardour."

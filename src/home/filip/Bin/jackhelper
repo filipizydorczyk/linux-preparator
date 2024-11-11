@@ -18,3 +18,4 @@ pulseaudio --kill
 echo ""
 echo "Server started. Use jack_control exit to close the session."
 echo "You might want to use Carla or Ardour."
+echo "To see if you are still running jack you can look into GNOME sound output list."

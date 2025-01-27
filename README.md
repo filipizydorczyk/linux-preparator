@@ -28,13 +28,3 @@ realtime docker video storage optical audio wheel
 I want to have script that fethces all of them and install but for now I don't know the way to do so so I just keep them as an list in here:
 
 - [ddterm](https://extensions.gnome.org/extension/3780/ddterm/)
-
-# Additional setup
-
-I change some additionall stuff using [Chris Titus winutil](https://github.com/ChrisTitusTech/winutil). In the future I may want to just used proper commands in the script but for now I can just run this in terinal and click what I want.
-
-```sh
-irm "https://christitus.com/win" | iex
-```
-
-Additionally you need to disable HDR setting in windows. Also script for that will come some time later.

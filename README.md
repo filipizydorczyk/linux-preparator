@@ -1,9 +1,9 @@
 This is similar repository to [the one](https://github.com/filipizydorczyk/windows-preparator) I did to setup my windows install. The goal is to have eay way to get my setup qquickly if I needed to do reinstall and also to kind of document what I was doing on my installs. This repository contains diffrent parts:
 
--   resources - some of the scripts will need resources like list of packages to install. This is where I store them.
--   scripts - actions you can perform on fresh install. Call them from root direcotry ex. `./scripts/install.sh`
--   vendor - directory to keep submodules. At the moment I have only [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
--   src - these files are ment to be copied to the system. The exception is `src/home/filip/Bin` direcotry which you copy only once on the machine the you did changes on. This directory is synced with syncthing so you just need to do it once to have these changes on all machinces. Assuming the syncthing is used if not the you do have to copy it each time.
+- resources - some of the scripts will need resources like list of packages to install. This is where I store them.
+- scripts - actions you can perform on fresh install. Call them from root direcotry ex. `./scripts/install.sh`
+- vendor - directory to keep submodules. At the moment I have only [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+- src - these files are ment to be copied to the system. The exception is `src/home/filip/Bin` direcotry which you copy only once on the machine the you did changes on. This directory is synced with syncthing so you just need to do it once to have these changes on all machinces. Assuming the syncthing is used if not the you do have to copy it each time.
 
 ```sh
 pacman -Qqen
@@ -19,7 +19,7 @@ I do use some web apps on my PC as an imitation of desktop application. Unfortun
 Since I do some audio stuff and I often run jack server its important to add user to `realtime` group. Its only thing I need to rememebr so i dont do playbook for that but I mention it in README so that I dont forget. Here are my groups on curent machines
 
 ```sh
-➜ linux-preparator (master) ✅ groups                
+➜ linux-preparator (master) ✅ groups
 realtime docker video storage optical audio wheel
 ```
 
@@ -28,3 +28,13 @@ realtime docker video storage optical audio wheel
 I want to have script that fethces all of them and install but for now I don't know the way to do so so I just keep them as an list in here:
 
 - [ddterm](https://extensions.gnome.org/extension/3780/ddterm/)
+
+# Additional setup
+
+I change some additionall stuff using [Chris Titus winutil](https://github.com/ChrisTitusTech/winutil). In the future I may want to just used proper commands in the script but for now I can just run this in terinal and click what I want.
+
+```sh
+irm "https://christitus.com/win" | iex
+```
+
+Additionally you need to disable HDR setting in windows. Also script for that will come some time later.

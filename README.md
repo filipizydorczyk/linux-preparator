@@ -23,6 +23,16 @@ Since I do some audio stuff and I often run jack server its important to add use
 realtime docker video storage optical audio wheel
 ```
 
+# Crontab
+
+```
+sudo EDITOR=nano crontab -u filip -e
+```
+
+```
+0 * * * * /home/filip/Bin/linux/febingwall
+```
+
 # Gnome extensions
 
 I want to have script that fethces all of them and install but for now I don't know the way to do so so I just keep them as an list in here:

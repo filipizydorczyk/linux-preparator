@@ -16,6 +16,7 @@ echo "clpkgcache    Will remove all cached packages in the system (pacman + AUR)
 echo "jackhelper    Will ask you for a device to start Jack server for you and will give some instructions."
 echo ""
 echo "feaudioyt     Will download audio from youtube url"
+echo "febingwall    Will fetch random Windows spotlight wallpaper and set it as background in gnome. It's meant to use in cron but you can run it manually if you are bored :D"
 echo "crgif         Will create gif from provided video"
 echo "contomov      Will convert files in current directory to mov editible in davincie resolve"
 echo "cononetomov   Will convert single file to mov editible in davincie resolve"

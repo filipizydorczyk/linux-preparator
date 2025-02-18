@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Define the directory to store wallpapers
+WALLPAPER_DIR="$HOME/Pictures/Wallpapers"
+mkdir -p "$WALLPAPER_DIR"
+
+# Fetch the JSON data
+response=$(curl -s "https://bingw.jasonzeng.dev/?resolution=UHD&qlt=100&index=random&w=2048&format=json")
+
+# Extract the wallpaper URL
+WALLPAPER_URL=$(echo "$response" | jq -r '.url')
+
+# Download the wallpaper
+WALLPAPER_PATH="$WALLPAPER_DIR/wallpaper_$(date +%s).jpg"
+wget -q -O "$WALLPAPER_PATH" "$WALLPAPER_URL"
+
+# Set the downloaded wallpaper as the GNOME background
+gsettings set org.gnome.desktop.background picture-uri "file://$WALLPAPER_PATH"
+
+echo "Wallpaper set to: $WALLPAPER_PATH"

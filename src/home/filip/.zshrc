@@ -1,5 +1,5 @@
 export ZSH=~/.oh-my-zsh
-export PATH=$PATH:~/Bin:~/.local/appimages
+export PATH=$PATH:~/Bin/linux:~/.local/appimages
 export QT_QPA_PLATFORMTHEME=gnome
 export EDITOR=nano
 export LC_CTYPE=en_US.UTF-8

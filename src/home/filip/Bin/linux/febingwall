@@ -5,7 +5,7 @@ WALLPAPER_DIR="/home/filip/Pictures/Wallpapers"
 mkdir -p "$WALLPAPER_DIR"
 
 # Fetch the JSON data
-response=$(curl -s "https://bingw.jasonzeng.dev/?resolution=UHD&qlt=100&index=random&w=2048&format=json")
+response=$(curl -s "https://bingw.jasonzeng.dev/?resolution=UHD&index=random&format=json")
 
 # Extract the wallpaper URL
 WALLPAPER_URL=$(echo "$response" | jq -r '.url')

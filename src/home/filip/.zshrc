@@ -29,6 +29,7 @@ alias clear="clear && neofetch"
 
 source $ZSH/oh-my-zsh.sh
 source /usr/share/nvm/init-nvm.sh
+source /home/filip/Bin/linux/passmg_completion.sh
 
 # if hash setxkbmap 2>/dev/null; then
 #     setxkbmap pl
